@@ -1,3 +1,4 @@
+// Gerado com o prompt: "Crie testes unitários para a função calcularTotal usando Jest"
 const { calcularTotal } = require('../src/main');
 
 test('Calcula total com desconto', () => {
@@ -9,3 +10,4 @@ test('Calcula total sem desconto', () => {
     const pedidos = [{valor:200}, {valor:50}];
     expect(calcularTotal(pedidos, 0)).toBe(250);
 });
+

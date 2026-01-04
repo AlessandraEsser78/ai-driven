@@ -17,17 +17,5 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^29.7.0"
-  },
-  "directories": {
-    "test": "tests"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AlessandraEsser78/ai-driven.git"
-  },
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/AlessandraEsser78/ai-driven/issues"
-  },
-  "homepage": "https://github.com/AlessandraEsser78/ai-driven#readme"
+  }
 }

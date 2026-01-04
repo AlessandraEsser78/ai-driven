@@ -4,3 +4,4 @@ function calcularTotal(pedidos, desconto) {
 }
 
 module.exports = { calcularTotal };
+
