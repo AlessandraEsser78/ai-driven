@@ -62,11 +62,20 @@ function calcularTotal(pedidos, desconto) {
     return pedidos.reduce((total, pedido) => total + pedido.valor, 0) * (1 - desconto);
 }
 
+module.exports = { calcularTotal };
+
 **Exemplo de teste unitário gerado pelo Copilot:**
 // Gerado com o prompt: "Crie testes unitários para a função calcularTotal usando Jest"
+const { calcularTotal } = require('../src/main');
+
 test('Calcula total com desconto', () => {
     const pedidos = [{valor:100}, {valor:50}];
     expect(calcularTotal(pedidos, 0.1)).toBe(135);
+});
+
+test('Calcula total sem desconto', () => {
+    const pedidos = [{valor:200}, {valor:50}];
+    expect(calcularTotal(pedidos, 0)).toBe(250);
 });
 
 ### 5. Como Rodar o Projeto
@@ -83,3 +92,12 @@ npm test
 - Faça push das alterações e verifique o workflow do GitHub Actions:
 Todos os testes serão executados automaticamente.
 O badge de status mostrará se o build passou ou falhou.
+
+### 6. Conclusão
+
+- A integração de GitHub Copilot e GitHub Actions demonstra que é possível aumentar a produtividade sem comprometer a qualidade, garantindo:
+
+Código consistente.
+Testes automatizados cobrindo funções críticas.
+Feedback rápido para correção de bugs.
+Redução do ciclo de desenvolvimento.
