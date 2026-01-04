@@ -1,0 +1,33 @@
+{
+  "name": "ia-workflow-ci",
+  "version": "1.0.0",
+  "description": "Projeto demonstrando uso de IA no desenvolvimento com GitHub Copilot e CI com GitHub Actions",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "keywords": [
+    "inteligencia-artificial",
+    "github-copilot",
+    "github-actions",
+    "ci",
+    "testes-automatizados"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlessandraEsser78/ai-driven.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AlessandraEsser78/ai-driven/issues"
+  },
+  "homepage": "https://github.com/AlessandraEsser78/ai-driven#readme"
+}
